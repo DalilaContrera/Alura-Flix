@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1em 2.5em;
+    background-color: rgb(231, 80, 34);
+}
+
+a{ text-decoration: none;}
+
+.logoContainer{
+    height: 40px;
+    display: flex;
+    align-items: end;
+}
+
+.header img{
+    align-self: end;
+}
+
+.header button{
+    width: fit-content;
+    height: 30px;
+    margin-right: 8px;
+    color: white;
+    background-color: rgb(12, 115, 205);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.header button:hover{
+    cursor: pointer;
+    background-color: blue;
+}
