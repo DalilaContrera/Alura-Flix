@@ -8,9 +8,9 @@ function Inicio(){
     return(
         <>
            <Header></Header>
-           <Banner img="banner" color="grey" />
+           <Banner img="home" color="grey" />
            <Titulo>
-              <h1>Los Mejores Videos Musicales</h1>
+              <h1>Tus Videos Favoritos</h1>
            </Titulo> 
            <Footer></Footer>
         </>
